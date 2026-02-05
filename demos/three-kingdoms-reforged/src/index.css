@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add a nice font if you wish */
+body {
+  background-color: #f5f5f4; /* stone-100 */
+}
