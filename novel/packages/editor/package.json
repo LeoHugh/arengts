@@ -1,0 +1,26 @@
+{
+  "name": "@novel/editor",
+  "version": "1.0.0",
+  "description": "编辑器状态管理和数据转换",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.29.3",
+  "dependencies": {
+    "@novel/core": "workspace:*",
+    "reactflow": "^11.11.4",
+    "zustand": "^5.0.11"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.0.0"
+  }
+}

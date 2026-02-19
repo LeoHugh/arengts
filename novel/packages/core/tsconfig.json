@@ -1,0 +1,10 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./",
+    "composite": true,  // 必须设置，用于项目引用
+    "declaration": true // 生成 .d.ts 类型声明文件
+  },
+  "include": ["*.ts"]
+}

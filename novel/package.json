@@ -1,0 +1,21 @@
+{
+  "name": "novel",
+  "version": "1.0.0",
+  "description": "互动游戏编辑器目",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "clean": "turbo run clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.29.3",
+  "devDependencies": {
+    "turbo": "^1.0.0",
+    "typescript": "^5.9.3"
+  }
+}

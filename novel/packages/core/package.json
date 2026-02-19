@@ -1,0 +1,17 @@
+{
+  "name": "@novel/core",
+  "version": "1.0.0",
+  "description": "核心数据类型和业务逻辑",
+  "private": true,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.29.3"
+}
